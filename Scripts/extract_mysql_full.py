@@ -11,6 +11,7 @@ username = parser.get("mysqlConfig", "username")
 dbname = parser.get("mysqlConfig", "database")
 password = parser.get("mysqlConfig", "password")
 
+
 conn = pymysql.connect(host= hostname, 
                        user=username,
                        password=password,
